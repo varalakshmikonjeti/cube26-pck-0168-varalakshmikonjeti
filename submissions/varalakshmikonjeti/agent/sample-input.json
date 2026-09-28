@@ -1,0 +1,16 @@
+{
+  "record_id": "PCK-000001",
+  "unit_id": "UNIT-0001",
+  "org_id": "org_demo_alpha",
+  "created_at": "2026-09-28T10:00:00Z",
+  "expected_contents": [
+    {
+      "sku": "SKU-A",
+      "quantity": 2
+    }
+  ],
+  "image_reference": "samples/packing/sample-pack-001.jpg",
+  "capture_timestamp": "2026-09-28T09:59:00Z",
+  "channel": "warehouse",
+  "operator_id": "operator-001"
+}

@@ -1,0 +1,34 @@
+{
+  "record_id": "PCK-000001",
+  "unit_id": "UNIT-0001",
+  "org_id": "org_demo_alpha",
+  "created_at": "2026-09-28T10:00:00Z",
+  "overall_verdict": "PASS",
+  "expected_contents": [
+    {
+      "sku": "SKU-A",
+      "quantity": 2
+    }
+  ],
+  "observed_contents": [
+    {
+      "description": "identified item",
+      "quantity": 2
+    }
+  ],
+  "checks": {
+    "item_presence": "PASS",
+    "quantity": "PASS",
+    "extra_items": "PASS",
+    "evidence_sufficiency": "PASS"
+  },
+  "evidence": [
+    {
+      "type": "image_observation",
+      "description": "The submitted image supports identification of the expected item and quantity."
+    }
+  ],
+  "reasoning": "The available image evidence supports the expected item and quantity.",
+  "model_status": "completed",
+  "pending_review": false
+}

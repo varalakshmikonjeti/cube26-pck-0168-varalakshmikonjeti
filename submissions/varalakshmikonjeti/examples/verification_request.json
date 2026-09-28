@@ -1,0 +1,17 @@
+{
+  "unit_id": "UNIT-DEMO-001",
+  "org_id": "org_demo_alpha",
+  "expected_contents": [
+    {
+      "sku": "SKU-A",
+      "quantity": 2
+    },
+    {
+      "sku": "SKU-B",
+      "quantity": 1
+    }
+  ],
+  "image_reference": "examples/sample_packing_image.jpg",
+  "capture_timestamp": "2026-09-28T10:00:00Z",
+  "channel": "demo"
+}
