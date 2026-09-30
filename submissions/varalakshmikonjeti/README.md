@@ -5,56 +5,64 @@ This directory contains the Pack Manager submission, including the product defin
 ---
 
 submissions/varalakshmikonjeti/
-├── README.md
-├── 01-customer-letter.md
-├── 02-prfaq.md
-├── 03-one-pager.md
-├── CLAUDE.md
-├── build-brief.md
-├── build-log.md
-├── eval-report.md
-├── agent/
-│   ├── README.md
-│   ├── execution.md
-│   ├── failure-handling.md
-│   ├── input-contract.md
-│   ├── output-contract.md
-│   ├── runbook.md
-│   ├── sample-input.json
-│   └── sample-output.json
-├── contract/
-│   ├── README.md
-│   ├── decision-schema.md
-│   ├── evidence-record.md
-│   └── override-record.md
-├── examples/
-│   ├── run_example.ps1
-│   └── verification_request.json
-├── src/
-    ├── README.MD
-│   ├── api.py
-│   ├── config.py
-│   ├── errors.py
-│   ├── image.py
-│   ├── models.py
-│   ├── model_client.py
-│   ├── override.py
-│   ├── pipeline.py
-│   ├── records.py
-│   ├── request_parser.py
-│   ├── runner.py
-│   ├── service.py
-│   ├── storage.py
-│   ├── tenant.py
-│   ├── validation.py
-│   ├── verifier.py
-│   ├── __init__.py
-│   └── main.py
-└── tests/
-    ├── test_agent_cli.py
-    ├── test_model_client.py
-    ├── test_runner.py
-    └── test_tenant_isolation.py
+
+README.md
+ARCHITECTURE.md
+
+01-customer-letter.md
+02-prfaq.md
+03-one-pager.md
+CLAUDE.md
+build-brief.md
+build-log.md
+eval-report.md
+
+agent/
+  README.md
+  execution.md
+  failure-handling.md
+  input-contract.md
+  output-contract.md
+  runbook.md
+  sample-input.json
+  sample-output.json
+
+contract/
+  README.md
+  decision-schema.md
+  evidence-record.md
+  override-record.md
+
+examples/
+  run_example.ps1
+  verification_request.json
+
+src/
+  README.MD
+  api.py
+  config.py
+  errors.py
+  image.py
+  models.py
+  model_client.py
+  override.py
+  pipeline.py
+  records.py
+  request_parser.py
+  runner.py
+  service.py
+  storage.py
+  tenant.py
+  validation.py
+  verifier.py
+  __init__.py
+  main.py
+
+tests/
+  test_agent_cli.py
+  test_model_client.py
+  test_runner.py
+  test_tenant_isolation.py
 
 ## Status
 
