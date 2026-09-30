@@ -4,11 +4,8 @@ This directory contains the Pack Manager submission, including the product defin
 
 ---
 
-## Submission Structure
-
 submissions/varalakshmikonjeti/
 ├── README.md
-├── ARCHITECTURE.md
 ├── 01-customer-letter.md
 ├── 02-prfaq.md
 ├── 03-one-pager.md
@@ -34,6 +31,7 @@ submissions/varalakshmikonjeti/
 │   ├── run_example.ps1
 │   └── verification_request.json
 ├── src/
+    ├── README.MD
 │   ├── api.py
 │   ├── config.py
 │   ├── errors.py
@@ -51,14 +49,12 @@ submissions/varalakshmikonjeti/
 │   ├── validation.py
 │   ├── verifier.py
 │   ├── __init__.py
-│   └── __main__.py
+│   └── main.py
 └── tests/
     ├── test_agent_cli.py
     ├── test_model_client.py
     ├── test_runner.py
     └── test_tenant_isolation.py
-
----
 
 ## Status
 
